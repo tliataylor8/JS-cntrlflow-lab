@@ -42,3 +42,31 @@
 // }
 
 
+// PART 2
+// DETERMINE: The amount of additional space that would be required if the scientists were to start with 100 plants, and did not prune them for 10 weeks.If the space remained circular, what would be the radius of this expanded garden?
+// const PI = 3.1415;
+// const radius = 5;
+// const gardenCap = PI * radius * radius;
+
+// let eachPlant = 0.8;
+
+// let w1Plants= 100; 
+// let w2Plants= w1Plants * 2;
+// let w3Plants= w2Plants * 2;
+// let w4Plants= w3Plants * 2;
+// let w5Plants= w4Plants * 2;
+// let w6Plants= w5Plants * 2;
+// let w7Plants= w6Plants * 2;
+// let w8Plants= w7Plants * 2;
+// let w9Plants= w8Plants * 2;
+// let w10Plants= w9Plants * 2;
+
+// let w10Plspace= w10Plants * eachPlant;
+// console.log(`If you started with 100 plants, this is the space needed if you haven't pruned after 10 weeks: ${w10Plspace} meters squared`);
+// let newRadius= Math.sqrt(w10Plspace/PI);
+// console.log(`Based on the 10 week space, this would be the new radius: ${newRadius}`);
+// => If you started with 100 plants, this is the space needed if you haven't pruned after 10 weeks: 40960 meters squared     
+// Based on the 10 week space, this would be the new radius: 114.1856272590599
+
+
+// PART 3
